@@ -3,14 +3,13 @@ body{
   font-family: helvetica;
   margin: 0;
   padding: 0;
-  filter: blur(50%);
   
 }
 .contenedorprincipal{
   display:flex;
   background-color: #ffffff;
   width: 100%;
-  height:auto 1300px;
+  height:auto 1200px;
   hhjhbeight: 100%;
   flex-flow: column;
 }
@@ -167,7 +166,7 @@ top:200;
 
 footer{
   width: 100%;
-  height: 80px;
+  height: 70px;
   background: #2C3E50;
   display: flex;
   justify-content: center;
