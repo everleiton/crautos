@@ -1,0 +1,54 @@
+.marcas{
+  width: 100%;
+  height: 60%;
+  max-height: 600px auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+  align-items: center;
+}
+.cuadromarca{
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+#cm1{
+  background-image: url('../img/logos/audi.png');
+}
+#cm2{
+  background-image: url('../img/logos/bmw.png');  
+}
+#cm3{
+  background-image: url('../img/logos/ford.png');    
+}
+#cm4{
+  background-image: url('../img/logos/honda.png');  
+}
+#cm5{
+  background-image: url('../img/logos/mercedes.jpg');  
+}
+#cm6{
+  background-image: url('../img/logos/mitsubishi.png');  
+}
+#cm7{
+  background-image: url('../img/logos/nissan.png');  
+}
+#cm8{
+  background-image: url('../img/logos/toyota.png');  
+}
+
+
+
+
+#cm1:hover, #cm2:hover, #cm3:hover, #cm4:hover, #cm5:hover, #cm6:hover, #cm7:hover, #cm8:hover{
+  -webkit-box-shadow: 0px 0px 38px 2px rgba(2,195,229,1);
+-moz-box-shadow: 0px 0px 38px 2px rgba(2,195,229,1);
+box-shadow: 0px 0px 30px 2px rgba(2,195,229,1);
+}
