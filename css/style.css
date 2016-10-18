@@ -1,6 +1,5 @@
-body{
-  
-  font-family: helvetica;
+body{  
+  font-family: "Proxima Nova Alt", "Helvetica Neue";
   margin: 0;
   padding: 0;
   
@@ -10,7 +9,6 @@ body{
   background-color: #ffffff;
   width: 100%;
   height:auto 1200px;
-  hhjhbeight: 100%;
   flex-flow: column;
 }
 .header-items{
@@ -170,14 +168,105 @@ body{
 
 footer{
   width: 100%;
-  height: 70px;
+  height: 75px;
   background: #2C3E50;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   color: #10a0b9;
   border-top: solid #10a0b9;
 }
-@media (max-width: 600px) {
+
+.barra_footer{
+  width: 33%;
+  height: 60px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#social{
   
+  justify-content: space-between;
+}
+.iconosocial{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.contred{
+  width: 33%;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#textored{
+  margin-left: 4px;
+  color: #ffffff
+}
+
+#barra_footer_derecha{
+  justify-content: flex-end;
+  text-align: right;
+}
+#texto_b_d_f{
+  margin-right:20px;
+}
+#textored:hover{
+  color: #10a0b9;
+}
+
+#fb{
+    background-image: url('../img/social/fb1.png');
+}
+#tw{
+    background-image: url('../img/social/twit1.png');
+}
+#ins{
+    background-image: url('../img/social/insta1.png');
+}
+
+#fb:hover{
+    background-image: url('../img/social/fb2.png');
+}
+#tw:hover{
+    background-image: url('../img/social/twit2.png');
+}
+#ins:hover{
+    background-image: url('../img/social/insta2.png');
+}
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  h2{
+    font-size: 10px;
+  }
+  .btn-prev, .btn-next{
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 25%;
+    transform: translateY(-50%);
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    font-family: monospace;
+    cursor: pointer;
+    
+  }
 }
