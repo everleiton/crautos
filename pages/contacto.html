@@ -2,10 +2,11 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>CR Autos - Búsqueda</title>
+  <title>CR Autos - Contacto</title>
   <link rel="stylesheet" href="../css/style.css" media="screen" title="no title">
-  <link rel="stylesheet" href="../css/style_marcas.css" media="screen" title="no title">
   <link rel="stylesheet" href="../css/index_style.css" media="screen" title="no title">
+  <link rel="stylesheet" href="../css/contacto_style.css" media="screen" title="no title">
+  
   <link rel="shortcut icon" href="../img/logo2.png" type="image/x-icon">
 </head>
 <body>
@@ -13,10 +14,10 @@
     <div class="header-items">
       <ul>
         <a href='../index.html'><li  id="item">Inicio</li></a>
-        <a href='../pages/busqueda.html'><li class="active" id="item">Búsqueda</li></a>
+        <a href='../pages/busqueda.html'><li  id="item">Búsqueda</li></a>
         <a href=''><li><img id='logo-crautos' src='../img/logo.png' height="27px" width="80px"></li></a>
         <!--<a href=''><li id="item">Ofertas</li></a> -->
-        <a href='../pages/contacto.html'><li id="item">Contacto</li></a>
+        <a href='../pages/contacto.html'><li  class="active" id="item">Contacto</li></a>
       </ul>
       
       
@@ -37,18 +38,49 @@
       <ul id="seguimiento">
         <a href="../../index.html"><li><img src="../img/home.gif" width="22px" height="22px" /></li></a>   
         <a href="#"><li>Inicio <img src="../img/next.png" width="10px" height="10px" /></li></a>  
-        <a href="#"><li>Búsqueda</li></a>  
+        <a href="#"><li>Contacto</li></a>  
       </ul>
     </div>
     <div class="barratexto">
       <div class="inclinado"> </div>
       <div class="inclinado2"> <div class="textonoin">
-        <h2>Búsqueda</h2>
+        <h2>Contacto</h2>
       </div></div>
     </div>
     
-    <div class="cuerpo">
-      /////////////////////////////////////////
+    <div class="cuerpo_contacto">
+      <div class="cuerpo_contacto_item" id="c1">
+      
+        <div class="barratexto2">
+          <div class="inclinado1_2"> </div>
+          <div class="inclinado2_2"> <div class="textonoin">
+            <h2>Puedes contactarnos por nuestras Redes Sociales o enviándonos tus datos mediante el siguiente formulario.</h2>
+          </div></div>
+        </div>
+      
+          <div class="contred" >
+            <a href="https://www.facebook.com/eleitonm" target="_blank">   <div class="iconosocial" id="fb"></div></a> 
+            <h3 id="textored"> Facebook</h3>
+          </div>
+          <div class="contred">
+            <a href="https://twitter.com/everleiton" target="_blank">    <div class="iconosocial" id="tw"></div></a>
+            <h3 id="textored"> Twitter</h5>
+          </div>
+          <div class="contred">
+            <a href="https://www.instagram.com/everleiton/" target="_blank">    <div class="iconosocial" id="ins"></div></a>
+            <h3 id="textored"> Instagram</h3>
+    
+        </div>
+      </div>
+      <div class="cuerpo_contacto_item" id="c2">
+        <form class='contactoform'>
+            <div><label>Nombre:</label><input type='text' value='' required></div>
+            <div><label>Correo:</label><input type='text' value=''required></div>
+            <div><label>Asunto:</label><input type='text' value=''></div>
+            <div><label>Mensaje:</label><textarea resize="false" rows='6'></textarea></div>
+            <div><input type='submit'  onclick="alert('Sus datos fueron enviados exitosamente, en tres días hábiles responderemos mediante su correo electrónico')" value='Envia Mensaje'></div>
+        </form>
+      </div>
     </div>
     
   </div>
