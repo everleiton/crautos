@@ -1,5 +1,11 @@
+@font-face {
+font-family: 'Proxima Nova Alt Light';
+font-style: normal;
+font-weight: normal;
+src: local('Proxima Nova Alt Light'), url('css/font.woff') format('woff');
+}
 body{  
-  font-family: "Proxima Nova Alt", "Helvetica Neue";
+  font-family: 'Proxima Nova Alt Light';
   margin: 0;
   padding: 0;
   
