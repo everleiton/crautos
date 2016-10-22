@@ -101,3 +101,54 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.contactoredcuadro{
+width: 100%;
+height: 68px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+#textored{
+margin-left: 4px;
+color: #ffffff
+}
+
+
+#barrafb{
+  background-color: #3b5998; 
+  float: left;
+margin: 15px;
+-webkit-transition: margin 0.5s ease-out;
+-moz-transition: margin 0.5s ease-out;
+-ms-transition: margin 0.5s ease-out;
+transition: margin 0.5s ease-out;
+}
+#barratwitter{
+  background-color: #4099FF;
+  float: left;
+  margin: 15px;
+  -webkit-transition: margin 0.5s ease-out;
+  -moz-transition: margin 0.5s ease-out;
+  -ms-transition: margin 0.5s ease-out;
+  transition: margin 0.5s ease-out;
+}
+#barrainstagram{
+ background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, rgba(0, 0, 0, 0) 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, rgba(0, 0, 0, 0)), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+
+}
+
+
+#barrafb:hover{
+margin: -5px;
+}
+#barratwitter{
+  margin: -5px;
+
+}
+#barrainstagram{
+  margin: -5px;
+}
