@@ -56,9 +56,8 @@
         <tr >
           <td width="155"  > Marca:&nbsp;&nbsp; </td>
           <td >
-            <select name="brand" size="1" id="brand">
-              <option value="00" selected="">No Importa</option>
-              <option> Audi</option>
+            <select  required>
+              <option selected> Audi</option>
               <option> BMW</option>
               <option> Chevrolet</option>
               <option> Daihatsu</option>
@@ -81,7 +80,7 @@
         <tr>
           <td > Modelo:&nbsp;&nbsp; </td>
           <td >
-            <input type="text" placeholder="No Importa">
+            <input type="text" placeholder="A1" required>
           </td>
         </tr>
         <tr>  
@@ -96,102 +95,114 @@
           <td > Estilo:&nbsp;&nbsp; </td>
           <td >
             <select>
+              <option selected>Sedán</option>
+              <option>Pickup 4 x 2</option>
+              <option>Pickup 4 x 4</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td > Combustible:&nbsp;&nbsp; </td>
+          <td >
+            <select>
               <option selected="">No Importa</option>
-              <option>Sedán</option>
-              <option>Pickup 4x2</option>
-              <option>Pickup 4
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td > Combustible:&nbsp;&nbsp; </td>
-            <td >
-              <select>
-                <option selected="">No Importa</option>
-                <option>Gasolina</option>
-                <option>Diesel</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td > Transmisión:&nbsp;&nbsp; </td>
-            <td >
-              <select>
-                <option selected="">No Importa</option>
-                <option>Manual</option>
-                <option>Automática</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td > Número de puertas:&nbsp;&nbsp; </td>
-            <td >
-              <select name= id="puertas">
-                <option  selected="">No Importa</option>
-                <option >2-3</option>
-                <option >4 o más</option>
-              </select>
-            </td>
-          </tr>
-          <tr>
-            <td  > Año:&nbsp;&nbsp; </td>
-            <td >
-              <select name="yearfrom" size="1" id="yearfrom">
-                <option selected="">2016</option>
-                <option>2015</option>
-                <option>2014</option>
-                <option>2013</option>
-                <option>2012</option>
-                <option>2011</option>
-                <option>2010</option>
-                <option>2009</option>
-                <option>2008</option>
-                <option>2007</option>
-                <option>2006</option>
-                <option>2005</option>
-                <option>2004</option>
-                <option>2003</option>
-                <option>2002</option>
-                <option>2001</option>
-                <option>2000</option>
-                <option>1999</option>
-                <option>1998</option>
-                <option>1997</option>
-              </select>
-            </td>
-          </tr>
+              <option>Gasolina</option>
+              <option>Diesel</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td > Transmisión:&nbsp;&nbsp; </td>
+          <td >
+            <select>
+              <option selected>Automática</option>
+              <option>Manual</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td > Número de puertas:&nbsp;&nbsp; </td>
+          <td >
+            <select name= id="puertas">
+              <option  selected>No Importa</option>
+              <option >2-3</option>
+              <option >4 o más</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td  > Año:&nbsp;&nbsp; </td>
+          <td >
+            <select name="yearfrom" size="1" id="yearfrom">
+              <option selected="">2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+              <option>2010</option>
+              <option>2009</option>
+              <option>2008</option>
+              <option>2007</option>
+              <option>2006</option>
+              <option>2005</option>
+              <option>2004</option>
+              <option>2003</option>
+              <option>2002</option>
+              <option>2001</option>
+              <option>2000</option>
+              <option>1999</option>
+              <option>1998</option>
+              <option>1997</option>
+            </select>
+          </td>
+        </tr>
+        
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" onClick="document.getElementById('oculto').style.visibility='visible'" value="        Buscar Vehículo        " id="button_submit">
+            <input type="submit"  onClick="document.location.reload();" value="        Restaurar búsqueda        "id="button_submit">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+      <div id="oculto" style="visibility:hidden"> 
+          <table>
+            <tr><th>Marca</th><th>Modelo</th><th>Estilo</th><th>Transmisión</th><th>Precio</th></tr>
+            <tr><td>Audi</td><td>A1 1.4 Sportback TFSI S-Tronic Comfort</td><td>Sedán</td><td>Automático</td><td>$13.820</td></tr>  
+          </table>
+          <div class="imagen">
+            <img  src="../img/autos/audi/a1.jpg" id="carro">
+          </div>
           
-          <tr>
-            <td colspan="2" align="center">
-              <input type="submit"   onclick="alert('')" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buscar Vehículo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" name="submit"></td>
-            </tr>
-          </tbody></table>
         </div>
         
-      </div>
-      <footer>
-        <div class="barra_footer" id="social"> 
-          <div class="contred" >
-            <a href="https://www.facebook.com/eleitonm" target="_blank">   <div class="iconosocial" id="fb"></div></a> 
-            <h5 id="textored"> Facebook</h5>
-          </div>
-          <div class="contred">
-            <a href="https://twitter.com/everleiton" target="_blank">    <div class="iconosocial" id="tw"></div></a>
-            <h5 id="textored"> Twitter</h5>
-          </div>
-          <div class="contred">
-            <a href="https://www.instagram.com/everleiton/" target="_blank">    <div class="iconosocial" id="ins"></div></a>
-            <h5 id="textored"> Instagram</h5>
-          </div>
+   
+
+      
+    </div>
+    <footer>
+      <div class="barra_footer" id="social"> 
+        <div class="contred" >
+          <a href="https://www.facebook.com/eleitonm" target="_blank">   <div class="iconosocial" id="fb"></div></a> 
+          <h5 id="textored"> Facebook</h5>
         </div>
-        <div class="barra_footer"><h5 id="textored">Sitio web creado por Ever Leitón</h5></div>
-        <div class="barra_footer" id="barra_footer_derecha">
-          <h5 id="texto_b_d_f">Universidad Técnica Nacional <br> Sede Regional de San Carlos </h5>
+        <div class="contred">
+          <a href="https://twitter.com/everleiton" target="_blank">    <div class="iconosocial" id="tw"></div></a>
+          <h5 id="textored"> Twitter</h5>
+        </div>
+        <div class="contred">
+          <a href="https://www.instagram.com/everleiton/" target="_blank">    <div class="iconosocial" id="ins"></div></a>
+          <h5 id="textored"> Instagram</h5>
         </div>
       </div>
-    </footer>
-    <script src="../js/jquery.js" ></script>
-    <script src="./js/slider.js" ></script>
-    <script src="../js/caruselimg.js" ></script>
-  </body>
-  </html>
+      <div class="barra_footer"><h5 id="textored">Sitio web creado por Ever Leitón</h5></div>
+      <div class="barra_footer" id="barra_footer_derecha">
+        <h5 id="texto_b_d_f">Universidad Técnica Nacional <br> Sede Regional de San Carlos </h5>
+      </div>
+    </div>
+  </footer>
+  <script src="../js/jquery.js" ></script>
+  <script src="../js/caruselimg.js" ></script>
+</body>
+</html>
