@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <title>CR Autos - Búsqueda</title>
   <link rel="stylesheet" href="../css/style.css" media="screen" title="no title">
+  <link rel="stylesheet" href="../css/style_busqueda.css" media="screen" title="no title">
   <link rel="stylesheet" href="../css/style_marcas.css" media="screen" title="no title">
   <link rel="stylesheet" href="../css/index_style.css" media="screen" title="no title">
   <link rel="shortcut icon" href="../img/logo2.png" type="image/x-icon">
@@ -36,7 +37,7 @@
     <div class="seguimientopagina">
       <ul id="seguimiento">
         <a href="../../index.html"><li><img src="../img/home.gif" width="22px" height="22px" /></li></a>   
-        <a href="#"><li>Inicio <img src="../img/next.png" width="10px" height="10px" /></li></a>  
+        <a href="../index.html"><li>Inicio <img src="../img/next.png" width="10px" height="10px" /></li></a>  
         <a href="#"><li>Búsqueda</li></a>  
       </ul>
     </div>
@@ -47,34 +48,150 @@
       </div></div>
     </div>
     
-    <div class="cuerpo">
-      /////////////////////////////////////////
-    </div>
-    
-  </div>
-  <footer>
-    <div class="barra_footer" id="social"> 
-      <div class="contred" >
-        <a href="https://www.facebook.com/eleitonm" target="_blank">   <div class="iconosocial" id="fb"></div></a> 
-        <h5 id="textored"> Facebook</h5>
+    <div class="cuerpo_busqueda">
+      <table>
+        <tbody><tr align="center">
+          <td colspan=2 class="titilotabla">Buscar datos con las siguientes características:</td>
+        </tr>
+        <tr >
+          <td width="155"  > Marca:&nbsp;&nbsp; </td>
+          <td >
+            <select name="brand" size="1" id="brand">
+              <option value="00" selected="">No Importa</option>
+              <option> Audi</option>
+              <option> BMW</option>
+              <option> Chevrolet</option>
+              <option> Daihatsu</option>
+              <option> Datsun</option>
+              <option> Ferrari</option>
+              <option> Ford</option>
+              <option> Honda</option>
+              <option> Hummer</option>
+              <option> Hyundai</option>
+              <option> Isuzu</option>
+              <option> Kia</option>
+              <option> Lamborghini</option>
+              <option> Mercedes Benz</option>
+              <option> Mitsubishi</option>
+              <option> Nissan</option>
+              <option> Peugeot</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td > Modelo:&nbsp;&nbsp; </td>
+          <td >
+            <input type="text" placeholder="No Importa">
+          </td>
+        </tr>
+        <tr>  
+          <td  > Cilindrada Entre:&nbsp;&nbsp; </td>
+          <td >
+            <input id="tamano_cilindrada"type="number" value="0">cc &nbsp; y&nbsp; 
+            <input id="tamano_cilindrada"type="number" value="10000">cc
+            
+          </td>
+        </tr>
+        <tr>
+          <td > Estilo:&nbsp;&nbsp; </td>
+          <td >
+            <select>
+              <option selected="">No Importa</option>
+              <option>Sedán</option>
+              <option>Pickup 4x2</option>
+              <option>Pickup 4
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td > Combustible:&nbsp;&nbsp; </td>
+            <td >
+              <select>
+                <option selected="">No Importa</option>
+                <option>Gasolina</option>
+                <option>Diesel</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td > Transmisión:&nbsp;&nbsp; </td>
+            <td >
+              <select>
+                <option selected="">No Importa</option>
+                <option>Manual</option>
+                <option>Automática</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td > Número de puertas:&nbsp;&nbsp; </td>
+            <td >
+              <select name= id="puertas">
+                <option  selected="">No Importa</option>
+                <option >2-3</option>
+                <option >4 o más</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td  > Año:&nbsp;&nbsp; </td>
+            <td >
+              <select name="yearfrom" size="1" id="yearfrom">
+                <option selected="">2016</option>
+                <option>2015</option>
+                <option>2014</option>
+                <option>2013</option>
+                <option>2012</option>
+                <option>2011</option>
+                <option>2010</option>
+                <option>2009</option>
+                <option>2008</option>
+                <option>2007</option>
+                <option>2006</option>
+                <option>2005</option>
+                <option>2004</option>
+                <option>2003</option>
+                <option>2002</option>
+                <option>2001</option>
+                <option>2000</option>
+                <option>1999</option>
+                <option>1998</option>
+                <option>1997</option>
+              </select>
+            </td>
+          </tr>
+          
+          <tr>
+            <td colspan="2" align="center">
+              <input type="submit"   onclick="alert('')" value="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buscar Vehículo&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;" name="submit"></td>
+            </tr>
+          </tbody></table>
+        </div>
+        
       </div>
-      <div class="contred">
-        <a href="https://twitter.com/everleiton" target="_blank">    <div class="iconosocial" id="tw"></div></a>
-        <h5 id="textored"> Twitter</h5>
+      <footer>
+        <div class="barra_footer" id="social"> 
+          <div class="contred" >
+            <a href="https://www.facebook.com/eleitonm" target="_blank">   <div class="iconosocial" id="fb"></div></a> 
+            <h5 id="textored"> Facebook</h5>
+          </div>
+          <div class="contred">
+            <a href="https://twitter.com/everleiton" target="_blank">    <div class="iconosocial" id="tw"></div></a>
+            <h5 id="textored"> Twitter</h5>
+          </div>
+          <div class="contred">
+            <a href="https://www.instagram.com/everleiton/" target="_blank">    <div class="iconosocial" id="ins"></div></a>
+            <h5 id="textored"> Instagram</h5>
+          </div>
+        </div>
+        <div class="barra_footer"><h5 id="textored">Sitio web creado por Ever Leitón</h5></div>
+        <div class="barra_footer" id="barra_footer_derecha">
+          <h5 id="texto_b_d_f">Universidad Técnica Nacional <br> Sede Regional de San Carlos </h5>
+        </div>
       </div>
-      <div class="contred">
-        <a href="https://www.instagram.com/everleiton/" target="_blank">    <div class="iconosocial" id="ins"></div></a>
-        <h5 id="textored"> Instagram</h5>
-      </div>
-    </div>
-    <div class="barra_footer"><h5 id="textored">Sitio web creado por Ever Leitón</h5></div>
-    <div class="barra_footer" id="barra_footer_derecha">
-      <h5 id="texto_b_d_f">Universidad Técnica Nacional <br> Sede Regional de San Carlos </h5>
-    </div>
-  </div>
-</footer>
-<script src="../js/jquery.js" ></script>
-<script src="./js/slider.js" ></script>
-<script src="../js/caruselimg.js" ></script>
-</body>
-</html>
+    </footer>
+    <script src="../js/jquery.js" ></script>
+    <script src="./js/slider.js" ></script>
+    <script src="../js/caruselimg.js" ></script>
+  </body>
+  </html>

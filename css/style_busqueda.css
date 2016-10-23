@@ -1,0 +1,22 @@
+.cuerpo_busqueda{
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: 600px;
+  align-self: center;
+  margin-top: 20px;
+}
+.titilotabla{
+  background-color: #10a0b9;
+text-align: center;
+color: #FFFFFF
+}
+
+table td{
+  width: 500px;
+  padding: 5px;
+  text-align: left;;
+}
+#tamano_cilindrada{
+  width: 60px;
+}

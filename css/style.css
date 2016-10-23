@@ -1,8 +1,8 @@
 @font-face {
-font-family: 'Proxima Nova Alt Light';
-font-style: normal;
-font-weight: normal;
-src: local('Proxima Nova Alt Light'), url('css/font.woff') format('woff');
+  font-family: 'Proxima Nova Alt Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Proxima Nova Alt Light'), url('css/font.woff') format('woff');
 }
 body{  
   font-family: 'Proxima Nova Alt Light';
@@ -186,7 +186,7 @@ footer{
 .barra_footer{
   width: 33%;
   height: 60px;
-
+  
   display: flex;
   justify-content: center;
   align-items: center;
@@ -230,23 +230,23 @@ footer{
 }
 
 #fb{
-    background-image: url('../img/social/fb1.png');
+  background-image: url('../img/social/fb1.png');
 }
 #tw{
-    background-image: url('../img/social/twit1.png');
+  background-image: url('../img/social/twit1.png');
 }
 #ins{
-    background-image: url('../img/social/insta1.png');
+  background-image: url('../img/social/insta1.png');
 }
 
 #fb:hover{
-    background-image: url('../img/social/fb2.png');
+  background-image: url('../img/social/fb2.png');
 }
 #tw:hover{
-    background-image: url('../img/social/twit2.png');
+  background-image: url('../img/social/twit2.png');
 }
 #ins:hover{
-    background-image: url('../img/social/insta2.png');
+  background-image: url('../img/social/insta2.png');
 }
 
 
