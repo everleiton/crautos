@@ -16,9 +16,8 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  transition-property: all;
-  transition-duration: 1s;
-  transition-timing-function: linear;
+
+  transition:box-shadow 2s, transform 500ms, filter 500ms ease-in-out; 
 }
 #cm1{
   background-image: url('../img/logos/audi.png');
@@ -52,6 +51,6 @@
   -webkit-box-shadow: 0px 0px 10px 1px rgba(0, 62, 73, 0.9);
   -moz-box-shadow: 0px 0px 10px 1px rgba(0, 62, 73, 0.9);
   box-shadow: 0px 0px 10px 1px rgba(0, 62, 73, 0.9);
-  padding: 5px;
+   transform: scale(1.2);
 
 }
