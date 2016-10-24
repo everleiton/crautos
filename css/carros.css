@@ -145,7 +145,10 @@ th, td {
   width: 60%;
   height: 450px;
   align-self: center;
-
+  border-radius: 15px;
+  -webkit-box-shadow:  5px -5px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 5px -5px 5px 0px rgba(0,0,0,0.5);
+  box-shadow:  5px -5px 5px 0px rgba(0,0,0,0.55);
 }
 
 
