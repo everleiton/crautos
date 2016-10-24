@@ -219,8 +219,8 @@ footer{
 }
 
 #barra_footer_derecha{
-  justify-content: flex-end;
-  text-align: right;
+  justify-content: center;
+
 }
 #texto_b_d_f{
   margin-right:20px;
@@ -271,7 +271,9 @@ ul a{
 
 }
 
-
+.barra_footer_derecha img{
+  background-color: red;
+}
 
 
 @media (max-width: 600px) {
